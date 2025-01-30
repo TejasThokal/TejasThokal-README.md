@@ -1,4 +1,3 @@
-# README
 <!-- About Me -->
 <details align = "left" open>
 <summary><h1>:man_technologist: About🎯me</h1></summary>
