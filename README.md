@@ -8,4 +8,6 @@
 
 🌟 I like to build **websites** using **MERN Stack**.
 
+<img src = "Bottom_Down_Wave.svg" alt = "Bottom svg credit goes to user: BEPb">
+
 
