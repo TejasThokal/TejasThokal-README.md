@@ -7,53 +7,108 @@
 ❤️‍🔥 A passionate **MERN Stack Web Development** enthusiast based in _Mumbai, India_.
 
 🌟 I like to build **websites** using **MERN Stack**.
+<svg viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
 
-<details align = "center">
-  <summary><h2>Language :bar_chart: Statistics</h2></summary>
+  <!-- CSS -->
+  <style>
+  svg {
+    width: 100vw;
+    position: fixed;
+    top: 5px;
+    transform: rotate(360deg);
+    overflow: visible;
+    }
 
-<!-- GitHub Top Languages by Repository @Casper-->
+    <!-- Last Wave -->
+    .wave {
+        animation: wave 2s linear;
+        animation-iteration-count: infinite;
+        opacity: 0.6;
+        fill: #01AAff;
+        }
 
-![Top Languages by Repository](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sad0xer&theme=github_dark)
+    #wave2 {
+        animation-duration: 9s;
+        animation-direction: reverse;
+        opacity: 0.07;
+        fill: #01AAFF;
+        }
 
-<!-- GitHub Top Languages by Commit @Casper-->
+    #wave3 {
+        animation-duration: 8s;
+        opacity: 0.08;
+        fill: #01AAFF;
+    }
 
-![Languages by Commit](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sad0xer&theme=github_dark)
+    #wave4 {
+        animation-duration: 7s;
+        animation-direction: reverse;
+        opacity: 0.09;
+        fill: #01AAFF;
+    }
 
-<!-- GitHub | Languages Over Time -->
+    #wave5 {
+        animation-duration: 6s;
+        opacity: 0.10;
+        fill: #01AAFF;
+        }
 
-[![SAD0XER's GitHub | Languages Over Time](https://stats.quine.sh/SAD0XER/languages-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=SAD0XER)
+    #wave6 {
+        animation-duration: 5s;
+        animation-direction: reverse;
+        opacity: 0.09;
+        fill: #01AAFF;
+        }
 
-</details>
+    #wave7 {
+        animation-duration: 4s;
+        opacity: 0.08;
+        fill: #01AAFF;
+        }
 
-<!-- GitHub Commit Statistics -->
-<details align = "center">
-  <summary><h2>Commit :bar_chart: Statistics</h2></summary>
+    #wave8 {
+        animation-duration: 3s;
+        animation-direction: reverse;
+        opacity: 0.07;
+        fill: #01AAFF;
+        }
 
-  <!-- GitHub Commit Statistics @Casper-->
+    <!-- First Wave -->
+    #wave9 {
+        animation-duration: 2s;
+        opacity: 0.06;
+        fill: #01AAFF;
+    }
 
-![GitHub Commit Statistics](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sad0xer&theme=github_dark&utcOffset=5.30)
+    @keyframes wave { to { transform: translateX(-100%); } }
 
-<!-- GitHub | Topics Over Time -->
+    </style>
 
-[![SAD0XER's GitHub | Topics Over Time](https://stats.quine.sh/SAD0XER/topics-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=SAD0XER)
+  <defs>
+    <filter id="anim">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+      <feColorMatrix in="blur" mode="matrix"
+        values="
+           1 0 0 0 0
+           0 1 0 0 0
+           0 0 1 0 0
+           0 0 0 1 0"
+        result="anim" />
+      <xfeBlend in="SourceGraphic" in2="anim" />
+    </filter>
 
-  </details>
-</details>
+    <path id="wave"
+      d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </defs>
 
-<!-- Wave SVG | Bottom Down Wave SVG -->
-<img src = "Bottom_Down_Wave.svg" alt = "Bottom svg credit goes to user: BEPb">
-
-</div>
-
-<!-- ### Hi there 👋
-**SAD0XER/SAD0XER** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-Here are some ideas to get you started:
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
+  <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+  <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-1"></use>
+  <use id="wave4" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+  <use id="wave5" class="wave" xlink:href="#wave" x="0" y="-3"></use>
+  <use id="wave6" class="wave" xlink:href="#wave" x="0" y="-4"></use>
+  <use id="wave7" class="wave" xlink:href="#wave" x="0" y="-5"></use>
+  <use id="wave8" class="wave" xlink:href="#wave" x="0" y="-6"></use>
+  <use id="wave9" class="wave" xlink:href="#wave" x="0" y="-7"></use>
+</svg>
 
